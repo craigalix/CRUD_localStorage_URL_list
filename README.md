@@ -16,8 +16,8 @@ Functionality:
 Alert Will popup for action confirmations.
 
 # Start up summary
-1) git clone <this repo>
-2) cd <in to cloned repo>
+1) git clone [this repo]
+2) cd [in to cloned repo]
 3) npm install
 4) npm start
 
