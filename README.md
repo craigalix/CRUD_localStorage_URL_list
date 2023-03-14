@@ -1,3 +1,28 @@
+# CRUD_localStorage_URL_list
+This is a CRUD project that utilizes localStorage to store List
+
+ListModel:
+- id: string
+- name: string
+- URL: string
+- tag: list of strings
+
+Functionality:
+- Add new entry into the list, stored in localStorage
+- Edit existing entry from localStorage
+- Delete existing entry from localStorage
+- Read from localStorage
+
+Alert Will popup for action confirmations.
+
+# Start up summary
+1) git clone [this repo]
+2) cd [in to cloned repo]
+3) npm install
+4) npm start
+
+  
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
