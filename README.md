@@ -15,6 +15,12 @@ Functionality:
 
 Alert Will popup for action confirmations.
 
+# Start up summary
+1) git clone <this repo>
+2) cd <in to cloned repo>
+3) npm install
+4) npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
