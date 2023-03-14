@@ -1,3 +1,14 @@
+# CRUD_localStorage_URL_list
+This is a CRUD project that utilizes localStorage to store List
+
+ListModel:
+- id: string
+- name: string
+- URL: string
+- tag: list of strings
+
+Alert Will popup for action confirmations.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
