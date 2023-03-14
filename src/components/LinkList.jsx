@@ -16,16 +16,14 @@ export function LinkList({ links, deleteLink }) {
             </div>
             {links.map(link => (
                 <ul key={link.id}>
-                    <li  className="list-row">
+                    <li className="list-row">
                         <b>Name:</b> {link.name} <b>| URL:</b> {link.url}
                         <div style={{ float: "right" }}>
-                            {/* This is to show tags related to each link id
-                             {link.tags && (
+                            {link.tags && (
                                 <span>
-                                {' '}
-                                - Tags: {link.tags.map(tag => <span key={tag}>#{tag} </span>)}
+                                    {' '} {link.tags.map(tag => <span key={tag}>#{tag} </span>)}
                                 </span>
-                            )} */}
+                            )}
                             <button className="delete-btn" onClick={() => deleteLink(link.url)}><FaTrash /></button>
                             <Link to={`/edit/${link.id}`}>
                                 <button className="edit-btn" ><FaEdit /></button>
