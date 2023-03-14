@@ -7,6 +7,12 @@ ListModel:
 - URL: string
 - tag: list of strings
 
+Functionality:
+- Add new entry into the list, stored in localStorage
+- Edit existing entry from localStorage
+- Delete existing entry from localStorage
+- Read from localStorage
+
 Alert Will popup for action confirmations.
 
 # Getting Started with Create React App
